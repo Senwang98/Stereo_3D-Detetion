@@ -1,0 +1,2 @@
+mytest
+-DCATKIN_DEVEL_PREFIX=/home/wangsen/ros_test/devel -DCMAKE_INSTALL_PREFIX=/home/wangsen/ros_test/install -G Unix Makefiles

@@ -1,0 +1,8 @@
+prefix=/home/wangsen/ros_test/devel
+
+Name: mytest
+Description: Description of mytest
+Version: 0.0.0
+Cflags: -I/home/wangsen/ros_test/src/mytest/include
+Libs: -L${prefix}/lib 
+Requires: cv_bridge image_transport roscpp sensor_msgs std_msgs message_runtime pcl_ros jsk_recognition_msgs geometry_msgs

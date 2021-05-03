@@ -1,0 +1,13 @@
+
+<launch>
+	<node name="main" pkg = "mytest" type = "main" output = "screen">
+		</node>
+	<!-- <node name="TDA4" pkg = "mytest" type = "TDA4" output = "screen">
+		</node> -->
+	<node name="segment" pkg = "mytest" type = "segment" output = "screen">
+		</node>
+	<node name="rectify" pkg = "mytest" type = "rectify" output = "screen">
+    	</node>
+	<node name="match" pkg = "mytest" type = "match" output = "screen">
+    	</node>
+</launch>

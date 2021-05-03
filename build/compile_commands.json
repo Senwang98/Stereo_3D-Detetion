@@ -1,0 +1,117 @@
+[
+{
+  "directory": "/home/wangsen/ros_test/build/gtest",
+  "command": "/usr/bin/c++   -DGTEST_CREATE_SHARED_LIBRARY=1 -Dgmock_EXPORTS -I/usr/src/gmock/include -I/usr/src/gmock -I/usr/src/gtest/include -I/usr/src/gtest  -fPIC    -Wall -Wshadow -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o CMakeFiles/gmock.dir/usr/src/gtest/src/gtest-all.cc.o -c /usr/src/gtest/src/gtest-all.cc",
+  "file": "/usr/src/gtest/src/gtest-all.cc"
+},
+{
+  "directory": "/home/wangsen/ros_test/build/gtest",
+  "command": "/usr/bin/c++   -DGTEST_CREATE_SHARED_LIBRARY=1 -Dgmock_EXPORTS -I/usr/src/gmock/include -I/usr/src/gmock -I/usr/src/gtest/include -I/usr/src/gtest  -fPIC    -Wall -Wshadow -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o CMakeFiles/gmock.dir/src/gmock-all.cc.o -c /usr/src/gmock/src/gmock-all.cc",
+  "file": "/usr/src/gmock/src/gmock-all.cc"
+},
+{
+  "directory": "/home/wangsen/ros_test/build/gtest",
+  "command": "/usr/bin/c++   -DGTEST_CREATE_SHARED_LIBRARY=1 -Dgmock_main_EXPORTS -I/usr/src/gmock/include -I/usr/src/gmock -I/usr/src/gtest/include -I/usr/src/gtest  -fPIC    -Wall -Wshadow -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o CMakeFiles/gmock_main.dir/usr/src/gtest/src/gtest-all.cc.o -c /usr/src/gtest/src/gtest-all.cc",
+  "file": "/usr/src/gtest/src/gtest-all.cc"
+},
+{
+  "directory": "/home/wangsen/ros_test/build/gtest",
+  "command": "/usr/bin/c++   -DGTEST_CREATE_SHARED_LIBRARY=1 -Dgmock_main_EXPORTS -I/usr/src/gmock/include -I/usr/src/gmock -I/usr/src/gtest/include -I/usr/src/gtest  -fPIC    -Wall -Wshadow -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o CMakeFiles/gmock_main.dir/src/gmock-all.cc.o -c /usr/src/gmock/src/gmock-all.cc",
+  "file": "/usr/src/gmock/src/gmock-all.cc"
+},
+{
+  "directory": "/home/wangsen/ros_test/build/gtest",
+  "command": "/usr/bin/c++   -DGTEST_CREATE_SHARED_LIBRARY=1 -Dgmock_main_EXPORTS -I/usr/src/gmock/include -I/usr/src/gmock -I/usr/src/gtest/include -I/usr/src/gtest  -fPIC    -Wall -Wshadow -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o CMakeFiles/gmock_main.dir/src/gmock_main.cc.o -c /usr/src/gmock/src/gmock_main.cc",
+  "file": "/usr/src/gmock/src/gmock_main.cc"
+},
+{
+  "directory": "/home/wangsen/ros_test/build/gtest/gtest",
+  "command": "/usr/bin/c++   -DGTEST_CREATE_SHARED_LIBRARY=1 -Dgtest_EXPORTS -I/usr/src/gtest/include -I/usr/src/gtest  -fPIC    -Wall -Wshadow -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o CMakeFiles/gtest.dir/src/gtest-all.cc.o -c /usr/src/gtest/src/gtest-all.cc",
+  "file": "/usr/src/gtest/src/gtest-all.cc"
+},
+{
+  "directory": "/home/wangsen/ros_test/build/gtest/gtest",
+  "command": "/usr/bin/c++   -DGTEST_CREATE_SHARED_LIBRARY=1 -Dgtest_main_EXPORTS -I/usr/src/gtest/include -I/usr/src/gtest  -fPIC    -Wall -Wshadow -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o CMakeFiles/gtest_main.dir/src/gtest_main.cc.o -c /usr/src/gtest/src/gtest_main.cc",
+  "file": "/usr/src/gtest/src/gtest_main.cc"
+},
+{
+  "directory": "/home/wangsen/ros_test/build/mytest",
+  "command": "/usr/bin/c++   -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"mytest\\\" -D_ZED_CAM_ -I/home/wangsen/ros_test/src/mytest/include -isystem /opt/ros/kinetic/include/opencv-3.3.1-dev -isystem /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv -I/usr/include/python2.7 -I/opt/ros/kinetic/include -I/opt/ros/kinetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/eigen3 -I/usr/include/pcl-1.7 -I/usr/include/ni -I/usr/include/vtk-6.2 -I/usr/lib/openmpi/include/openmpi/opal/mca/event/libevent2021/libevent -I/usr/lib/openmpi/include/openmpi/opal/mca/event/libevent2021/libevent/include -I/usr/lib/openmpi/include -I/usr/lib/openmpi/include/openmpi -I/usr/include/jsoncpp -I/usr/include/freetype2 -I/usr/include/x86_64-linux-gnu -I/usr/include/tcl -I/usr/include/libxml2 -I/usr/local/lib/cmake/Pangolin/../../../include   -std=c++11 -Wall -Wextra -Wpedantic -O2 -msse2 -pg   -o CMakeFiles/rectify.dir/src/stereo_calibrator.cpp.o -c /home/wangsen/ros_test/src/mytest/src/stereo_calibrator.cpp",
+  "file": "/home/wangsen/ros_test/src/mytest/src/stereo_calibrator.cpp"
+},
+{
+  "directory": "/home/wangsen/ros_test/build/mytest",
+  "command": "/usr/bin/c++   -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"mytest\\\" -D_ZED_CAM_ -I/home/wangsen/ros_test/src/mytest/include -isystem /opt/ros/kinetic/include/opencv-3.3.1-dev -isystem /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv -I/usr/include/python2.7 -I/opt/ros/kinetic/include -I/opt/ros/kinetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/eigen3 -I/usr/include/pcl-1.7 -I/usr/include/ni -I/usr/include/vtk-6.2 -I/usr/lib/openmpi/include/openmpi/opal/mca/event/libevent2021/libevent -I/usr/lib/openmpi/include/openmpi/opal/mca/event/libevent2021/libevent/include -I/usr/lib/openmpi/include -I/usr/lib/openmpi/include/openmpi -I/usr/include/jsoncpp -I/usr/include/freetype2 -I/usr/include/x86_64-linux-gnu -I/usr/include/tcl -I/usr/include/libxml2 -I/usr/local/lib/cmake/Pangolin/../../../include   -std=c++11 -Wall -Wextra -Wpedantic -O2 -msse2 -pg   -o CMakeFiles/rectify.dir/src/IiBasicDef.cpp.o -c /home/wangsen/ros_test/src/mytest/src/IiBasicDef.cpp",
+  "file": "/home/wangsen/ros_test/src/mytest/src/IiBasicDef.cpp"
+},
+{
+  "directory": "/home/wangsen/ros_test/build/mytest",
+  "command": "/usr/bin/c++   -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"mytest\\\" -D_ZED_CAM_ -I/home/wangsen/ros_test/src/mytest/include -isystem /opt/ros/kinetic/include/opencv-3.3.1-dev -isystem /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv -I/usr/include/python2.7 -I/opt/ros/kinetic/include -I/opt/ros/kinetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/eigen3 -I/usr/include/pcl-1.7 -I/usr/include/ni -I/usr/include/vtk-6.2 -I/usr/lib/openmpi/include/openmpi/opal/mca/event/libevent2021/libevent -I/usr/lib/openmpi/include/openmpi/opal/mca/event/libevent2021/libevent/include -I/usr/lib/openmpi/include -I/usr/lib/openmpi/include/openmpi -I/usr/include/jsoncpp -I/usr/include/freetype2 -I/usr/include/x86_64-linux-gnu -I/usr/include/tcl -I/usr/include/libxml2 -I/usr/local/lib/cmake/Pangolin/../../../include   -std=c++11 -Wall -Wextra -Wpedantic -O2 -msse2 -pg   -o CMakeFiles/rectify.dir/src/IIStereoCalibrator.cpp.o -c /home/wangsen/ros_test/src/mytest/src/IIStereoCalibrator.cpp",
+  "file": "/home/wangsen/ros_test/src/mytest/src/IIStereoCalibrator.cpp"
+},
+{
+  "directory": "/home/wangsen/ros_test/build/mytest",
+  "command": "/usr/bin/c++   -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"mytest\\\" -D_ZED_CAM_ -I/home/wangsen/ros_test/src/mytest/include -isystem /opt/ros/kinetic/include/opencv-3.3.1-dev -isystem /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv -I/usr/include/python2.7 -I/opt/ros/kinetic/include -I/opt/ros/kinetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/eigen3 -I/usr/include/pcl-1.7 -I/usr/include/ni -I/usr/include/vtk-6.2 -I/usr/lib/openmpi/include/openmpi/opal/mca/event/libevent2021/libevent -I/usr/lib/openmpi/include/openmpi/opal/mca/event/libevent2021/libevent/include -I/usr/lib/openmpi/include -I/usr/lib/openmpi/include/openmpi -I/usr/include/jsoncpp -I/usr/include/freetype2 -I/usr/include/x86_64-linux-gnu -I/usr/include/tcl -I/usr/include/libxml2 -I/usr/local/lib/cmake/Pangolin/../../../include   -std=c++11 -Wall -Wextra -Wpedantic -O2 -msse2 -pg   -o CMakeFiles/image_listener.dir/src/accept_rect.cpp.o -c /home/wangsen/ros_test/src/mytest/src/accept_rect.cpp",
+  "file": "/home/wangsen/ros_test/src/mytest/src/accept_rect.cpp"
+},
+{
+  "directory": "/home/wangsen/ros_test/build/mytest",
+  "command": "/usr/bin/c++   -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"mytest\\\" -D_ZED_CAM_ -I/home/wangsen/ros_test/src/mytest/include -isystem /opt/ros/kinetic/include/opencv-3.3.1-dev -isystem /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv -I/usr/include/python2.7 -I/opt/ros/kinetic/include -I/opt/ros/kinetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/eigen3 -I/usr/include/pcl-1.7 -I/usr/include/ni -I/usr/include/vtk-6.2 -I/usr/lib/openmpi/include/openmpi/opal/mca/event/libevent2021/libevent -I/usr/lib/openmpi/include/openmpi/opal/mca/event/libevent2021/libevent/include -I/usr/lib/openmpi/include -I/usr/lib/openmpi/include/openmpi -I/usr/include/jsoncpp -I/usr/include/freetype2 -I/usr/include/x86_64-linux-gnu -I/usr/include/tcl -I/usr/include/libxml2 -I/usr/local/lib/cmake/Pangolin/../../../include   -std=c++11 -Wall -Wextra -Wpedantic -O2 -msse2 -pg   -o CMakeFiles/match.dir/src/stereo_disparity_node.cpp.o -c /home/wangsen/ros_test/src/mytest/src/stereo_disparity_node.cpp",
+  "file": "/home/wangsen/ros_test/src/mytest/src/stereo_disparity_node.cpp"
+},
+{
+  "directory": "/home/wangsen/ros_test/build/mytest",
+  "command": "/usr/bin/c++   -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"mytest\\\" -D_ZED_CAM_ -I/home/wangsen/ros_test/src/mytest/include -isystem /opt/ros/kinetic/include/opencv-3.3.1-dev -isystem /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv -I/usr/include/python2.7 -I/opt/ros/kinetic/include -I/opt/ros/kinetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/eigen3 -I/usr/include/pcl-1.7 -I/usr/include/ni -I/usr/include/vtk-6.2 -I/usr/lib/openmpi/include/openmpi/opal/mca/event/libevent2021/libevent -I/usr/lib/openmpi/include/openmpi/opal/mca/event/libevent2021/libevent/include -I/usr/lib/openmpi/include -I/usr/lib/openmpi/include/openmpi -I/usr/include/jsoncpp -I/usr/include/freetype2 -I/usr/include/x86_64-linux-gnu -I/usr/include/tcl -I/usr/include/libxml2 -I/usr/local/lib/cmake/Pangolin/../../../include   -std=c++11 -Wall -Wextra -Wpedantic -O2 -msse2 -pg   -o CMakeFiles/match.dir/src/stereo_disparity.cpp.o -c /home/wangsen/ros_test/src/mytest/src/stereo_disparity.cpp",
+  "file": "/home/wangsen/ros_test/src/mytest/src/stereo_disparity.cpp"
+},
+{
+  "directory": "/home/wangsen/ros_test/build/mytest",
+  "command": "/usr/bin/c++   -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"mytest\\\" -D_ZED_CAM_ -I/home/wangsen/ros_test/src/mytest/include -isystem /opt/ros/kinetic/include/opencv-3.3.1-dev -isystem /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv -I/usr/include/python2.7 -I/opt/ros/kinetic/include -I/opt/ros/kinetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/eigen3 -I/usr/include/pcl-1.7 -I/usr/include/ni -I/usr/include/vtk-6.2 -I/usr/lib/openmpi/include/openmpi/opal/mca/event/libevent2021/libevent -I/usr/lib/openmpi/include/openmpi/opal/mca/event/libevent2021/libevent/include -I/usr/lib/openmpi/include -I/usr/lib/openmpi/include/openmpi -I/usr/include/jsoncpp -I/usr/include/freetype2 -I/usr/include/x86_64-linux-gnu -I/usr/include/tcl -I/usr/include/libxml2 -I/usr/local/lib/cmake/Pangolin/../../../include   -std=c++11 -Wall -Wextra -Wpedantic -O2 -msse2 -pg   -o CMakeFiles/match.dir/src/IiBasicDef.cpp.o -c /home/wangsen/ros_test/src/mytest/src/IiBasicDef.cpp",
+  "file": "/home/wangsen/ros_test/src/mytest/src/IiBasicDef.cpp"
+},
+{
+  "directory": "/home/wangsen/ros_test/build/mytest",
+  "command": "/usr/bin/c++   -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"mytest\\\" -D_ZED_CAM_ -I/home/wangsen/ros_test/src/mytest/include -isystem /opt/ros/kinetic/include/opencv-3.3.1-dev -isystem /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv -I/usr/include/python2.7 -I/opt/ros/kinetic/include -I/opt/ros/kinetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/eigen3 -I/usr/include/pcl-1.7 -I/usr/include/ni -I/usr/include/vtk-6.2 -I/usr/lib/openmpi/include/openmpi/opal/mca/event/libevent2021/libevent -I/usr/lib/openmpi/include/openmpi/opal/mca/event/libevent2021/libevent/include -I/usr/lib/openmpi/include -I/usr/lib/openmpi/include/openmpi -I/usr/include/jsoncpp -I/usr/include/freetype2 -I/usr/include/x86_64-linux-gnu -I/usr/include/tcl -I/usr/include/libxml2 -I/usr/local/lib/cmake/Pangolin/../../../include   -std=c++11 -Wall -Wextra -Wpedantic -O2 -msse2 -pg   -o CMakeFiles/match.dir/src/IIOpencvDisparityCalculator.cpp.o -c /home/wangsen/ros_test/src/mytest/src/IIOpencvDisparityCalculator.cpp",
+  "file": "/home/wangsen/ros_test/src/mytest/src/IIOpencvDisparityCalculator.cpp"
+},
+{
+  "directory": "/home/wangsen/ros_test/build/mytest",
+  "command": "/usr/bin/c++   -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"mytest\\\" -D_ZED_CAM_ -I/home/wangsen/ros_test/src/mytest/include -isystem /opt/ros/kinetic/include/opencv-3.3.1-dev -isystem /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv -I/usr/include/python2.7 -I/opt/ros/kinetic/include -I/opt/ros/kinetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/eigen3 -I/usr/include/pcl-1.7 -I/usr/include/ni -I/usr/include/vtk-6.2 -I/usr/lib/openmpi/include/openmpi/opal/mca/event/libevent2021/libevent -I/usr/lib/openmpi/include/openmpi/opal/mca/event/libevent2021/libevent/include -I/usr/lib/openmpi/include -I/usr/lib/openmpi/include/openmpi -I/usr/include/jsoncpp -I/usr/include/freetype2 -I/usr/include/x86_64-linux-gnu -I/usr/include/tcl -I/usr/include/libxml2 -I/usr/local/lib/cmake/Pangolin/../../../include   -std=c++11 -Wall -Wextra -Wpedantic -O2 -msse2 -pg   -o CMakeFiles/TDA4.dir/src/TDA4.cpp.o -c /home/wangsen/ros_test/src/mytest/src/TDA4.cpp",
+  "file": "/home/wangsen/ros_test/src/mytest/src/TDA4.cpp"
+},
+{
+  "directory": "/home/wangsen/ros_test/build/mytest",
+  "command": "/usr/bin/c++   -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"mytest\\\" -D_ZED_CAM_ -I/home/wangsen/ros_test/src/mytest/include -isystem /opt/ros/kinetic/include/opencv-3.3.1-dev -isystem /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv -I/usr/include/python2.7 -I/opt/ros/kinetic/include -I/opt/ros/kinetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/eigen3 -I/usr/include/pcl-1.7 -I/usr/include/ni -I/usr/include/vtk-6.2 -I/usr/lib/openmpi/include/openmpi/opal/mca/event/libevent2021/libevent -I/usr/lib/openmpi/include/openmpi/opal/mca/event/libevent2021/libevent/include -I/usr/lib/openmpi/include -I/usr/lib/openmpi/include/openmpi -I/usr/include/jsoncpp -I/usr/include/freetype2 -I/usr/include/x86_64-linux-gnu -I/usr/include/tcl -I/usr/include/libxml2 -I/usr/local/lib/cmake/Pangolin/../../../include   -std=c++11 -Wall -Wextra -Wpedantic -O2 -msse2 -pg   -o CMakeFiles/segment.dir/src/seg.cpp.o -c /home/wangsen/ros_test/src/mytest/src/seg.cpp",
+  "file": "/home/wangsen/ros_test/src/mytest/src/seg.cpp"
+},
+{
+  "directory": "/home/wangsen/ros_test/build/mytest",
+  "command": "/usr/bin/c++   -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"mytest\\\" -D_ZED_CAM_ -I/home/wangsen/ros_test/src/mytest/include -isystem /opt/ros/kinetic/include/opencv-3.3.1-dev -isystem /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv -I/usr/include/python2.7 -I/opt/ros/kinetic/include -I/opt/ros/kinetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -isystem /usr/include/eigen3 -I/usr/include/pcl-1.7 -I/usr/include/ni -I/usr/include/vtk-6.2 -I/usr/lib/openmpi/include/openmpi/opal/mca/event/libevent2021/libevent -I/usr/lib/openmpi/include/openmpi/opal/mca/event/libevent2021/libevent/include -I/usr/lib/openmpi/include -I/usr/lib/openmpi/include/openmpi -I/usr/include/jsoncpp -I/usr/include/freetype2 -I/usr/include/x86_64-linux-gnu -I/usr/include/tcl -I/usr/include/libxml2 -I/usr/local/lib/cmake/Pangolin/../../../include -isystem /usr/local/include   -std=c++11 -Wall -Wextra -Wpedantic -O2 -msse2 -pg   -o CMakeFiles/main.dir/main.cpp.o -c /home/wangsen/ros_test/src/mytest/main.cpp",
+  "file": "/home/wangsen/ros_test/src/mytest/main.cpp"
+},
+{
+  "directory": "/home/wangsen/ros_test/build/mytest",
+  "command": "/usr/bin/c++   -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"mytest\\\" -D_ZED_CAM_ -I/home/wangsen/ros_test/src/mytest/include -isystem /opt/ros/kinetic/include/opencv-3.3.1-dev -isystem /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv -I/usr/include/python2.7 -I/opt/ros/kinetic/include -I/opt/ros/kinetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -isystem /usr/include/eigen3 -I/usr/include/pcl-1.7 -I/usr/include/ni -I/usr/include/vtk-6.2 -I/usr/lib/openmpi/include/openmpi/opal/mca/event/libevent2021/libevent -I/usr/lib/openmpi/include/openmpi/opal/mca/event/libevent2021/libevent/include -I/usr/lib/openmpi/include -I/usr/lib/openmpi/include/openmpi -I/usr/include/jsoncpp -I/usr/include/freetype2 -I/usr/include/x86_64-linux-gnu -I/usr/include/tcl -I/usr/include/libxml2 -I/usr/local/lib/cmake/Pangolin/../../../include -isystem /usr/local/include   -std=c++11 -Wall -Wextra -Wpedantic -O2 -msse2 -pg   -o CMakeFiles/main.dir/src/IiBasicDef.cpp.o -c /home/wangsen/ros_test/src/mytest/src/IiBasicDef.cpp",
+  "file": "/home/wangsen/ros_test/src/mytest/src/IiBasicDef.cpp"
+},
+{
+  "directory": "/home/wangsen/ros_test/build/mytest",
+  "command": "/usr/bin/c++   -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"mytest\\\" -D_ZED_CAM_ -I/home/wangsen/ros_test/src/mytest/include -isystem /opt/ros/kinetic/include/opencv-3.3.1-dev -isystem /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv -I/usr/include/python2.7 -I/opt/ros/kinetic/include -I/opt/ros/kinetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -isystem /usr/include/eigen3 -I/usr/include/pcl-1.7 -I/usr/include/ni -I/usr/include/vtk-6.2 -I/usr/lib/openmpi/include/openmpi/opal/mca/event/libevent2021/libevent -I/usr/lib/openmpi/include/openmpi/opal/mca/event/libevent2021/libevent/include -I/usr/lib/openmpi/include -I/usr/lib/openmpi/include/openmpi -I/usr/include/jsoncpp -I/usr/include/freetype2 -I/usr/include/x86_64-linux-gnu -I/usr/include/tcl -I/usr/include/libxml2 -I/usr/local/lib/cmake/Pangolin/../../../include -isystem /usr/local/include   -std=c++11 -Wall -Wextra -Wpedantic -O2 -msse2 -pg   -o CMakeFiles/main.dir/src/colorCCA.cpp.o -c /home/wangsen/ros_test/src/mytest/src/colorCCA.cpp",
+  "file": "/home/wangsen/ros_test/src/mytest/src/colorCCA.cpp"
+},
+{
+  "directory": "/home/wangsen/ros_test/build/mytest",
+  "command": "/usr/bin/c++   -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"mytest\\\" -D_ZED_CAM_ -I/home/wangsen/ros_test/src/mytest/include -isystem /opt/ros/kinetic/include/opencv-3.3.1-dev -isystem /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv -I/usr/include/python2.7 -I/opt/ros/kinetic/include -I/opt/ros/kinetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -isystem /usr/include/eigen3 -I/usr/include/pcl-1.7 -I/usr/include/ni -I/usr/include/vtk-6.2 -I/usr/lib/openmpi/include/openmpi/opal/mca/event/libevent2021/libevent -I/usr/lib/openmpi/include/openmpi/opal/mca/event/libevent2021/libevent/include -I/usr/lib/openmpi/include -I/usr/lib/openmpi/include/openmpi -I/usr/include/jsoncpp -I/usr/include/freetype2 -I/usr/include/x86_64-linux-gnu -I/usr/include/tcl -I/usr/include/libxml2 -I/usr/local/lib/cmake/Pangolin/../../../include -isystem /usr/local/include   -std=c++11 -Wall -Wextra -Wpedantic -O2 -msse2 -pg   -o CMakeFiles/main.dir/src/dbscan.cpp.o -c /home/wangsen/ros_test/src/mytest/src/dbscan.cpp",
+  "file": "/home/wangsen/ros_test/src/mytest/src/dbscan.cpp"
+},
+{
+  "directory": "/home/wangsen/ros_test/build/mytest",
+  "command": "/usr/bin/c++   -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"mytest\\\" -D_ZED_CAM_ -I/home/wangsen/ros_test/src/mytest/include -isystem /opt/ros/kinetic/include/opencv-3.3.1-dev -isystem /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv -I/usr/include/python2.7 -I/opt/ros/kinetic/include -I/opt/ros/kinetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -isystem /usr/include/eigen3 -I/usr/include/pcl-1.7 -I/usr/include/ni -I/usr/include/vtk-6.2 -I/usr/lib/openmpi/include/openmpi/opal/mca/event/libevent2021/libevent -I/usr/lib/openmpi/include/openmpi/opal/mca/event/libevent2021/libevent/include -I/usr/lib/openmpi/include -I/usr/lib/openmpi/include/openmpi -I/usr/include/jsoncpp -I/usr/include/freetype2 -I/usr/include/x86_64-linux-gnu -I/usr/include/tcl -I/usr/include/libxml2 -I/usr/local/lib/cmake/Pangolin/../../../include -isystem /usr/local/include   -std=c++11 -Wall -Wextra -Wpedantic -O2 -msse2 -pg   -o CMakeFiles/main.dir/src/objectdetection_buildminbox.cpp.o -c /home/wangsen/ros_test/src/mytest/src/objectdetection_buildminbox.cpp",
+  "file": "/home/wangsen/ros_test/src/mytest/src/objectdetection_buildminbox.cpp"
+},
+{
+  "directory": "/home/wangsen/ros_test/build/mytest",
+  "command": "/usr/bin/c++   -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"mytest\\\" -D_ZED_CAM_ -I/home/wangsen/ros_test/src/mytest/include -isystem /opt/ros/kinetic/include/opencv-3.3.1-dev -isystem /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv -I/usr/include/python2.7 -I/opt/ros/kinetic/include -I/opt/ros/kinetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -isystem /usr/include/eigen3 -I/usr/include/pcl-1.7 -I/usr/include/ni -I/usr/include/vtk-6.2 -I/usr/lib/openmpi/include/openmpi/opal/mca/event/libevent2021/libevent -I/usr/lib/openmpi/include/openmpi/opal/mca/event/libevent2021/libevent/include -I/usr/lib/openmpi/include -I/usr/lib/openmpi/include/openmpi -I/usr/include/jsoncpp -I/usr/include/freetype2 -I/usr/include/x86_64-linux-gnu -I/usr/include/tcl -I/usr/include/libxml2 -I/usr/local/lib/cmake/Pangolin/../../../include -isystem /usr/local/include   -std=c++11 -Wall -Wextra -Wpedantic -O2 -msse2 -pg   -o CMakeFiles/main.dir/src/objectdetection_dbscan.cpp.o -c /home/wangsen/ros_test/src/mytest/src/objectdetection_dbscan.cpp",
+  "file": "/home/wangsen/ros_test/src/mytest/src/objectdetection_dbscan.cpp"
+}
+]
