@@ -6,7 +6,9 @@
 
 ##### Demo：
 
-![demo](\demo.gif)
+<p align="center"> 
+<img src="demo.gif" width=100%>
+</p>
 
 ------
 
